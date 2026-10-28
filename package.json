@@ -1,0 +1,8 @@
+{
+  "name": "jezzball-n-ram",
+  "version": "1.0.0",
+  "description": "Mobile-first JezzBall remake with N and Ram Rebel balls, NFL jokes, and TV-show themes.",
+  "type": "module",
+  "scripts": { "test": "node --test" },
+  "license": "MIT"
+}

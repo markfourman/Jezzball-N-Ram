@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JezzBall: N-Ram Edition</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+  <meta name="description" content="A mobile-first remake of the classic JezzBall with N and Ram Rebel balls, NFL jokes, and Family Guy and Cleveland Show themes. Free, installable, works offline.">
+  <meta name="theme-color" content="#0b1630">
+  <!-- Absolute URLs are required for social preview cards (LinkedIn, etc.) -->
+  <meta name="repo-url" content="https://github.com/markfourman/Jezzball-N-Ram">
+  <link rel="canonical" href="https://markfourman.github.io/Jezzball-N-Ram/">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="JezzBall: N-Ram Edition">
+  <meta property="og:description" content="Split the field, trap the balls, survive the NFL jokes. Play free on your phone.">
+  <meta property="og:url" content="https://markfourman.github.io/Jezzball-N-Ram/">
+  <meta property="og:image" content="https://markfourman.github.io/Jezzball-N-Ram/assets/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <noscript>JezzBall needs JavaScript. Enable it and reload.</noscript>
+  <div id="hud"><span id="lvl"></span><span id="lives"></span><span id="pct"></span><span id="streak"></span></div>
+  <canvas id="board" aria-label="JezzBall playfield"></canvas>
+  <div id="bar"><button data-act="menu">☰ Menu</button><button id="flip" data-act="flip">↔ Horizontal</button></div>
+  <div id="overlay"></div>
+  <div id="toast"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
